@@ -1,0 +1,33 @@
+{
+    "name": "sienekib/alquimist",
+    "description": "Alquimist framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sienekib\\Alquimist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sienekib20",
+            "email": "sienekib@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":"^7.4|^8.1",
+        "filp/whoops": "^2.15",
+        "ramsey/uuid": "^4.7",
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/var-dumper": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sienekib\\Mehael\\": "src/"
+        },
+        "files": [
+            "src/Supports/helpers.php"
+        ]
+    }
+}
